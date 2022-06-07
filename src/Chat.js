@@ -64,7 +64,7 @@ function Chat() {
         <div className="chat__info">
           <h3>{roomName}</h3>
           <p>
-            last seen{""}
+            last seen {""}
             {new Date(
               messages[messages.length - 1]?.timestamp?.toDate()
             ).toLocaleString()}
